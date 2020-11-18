@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container-fluid{
+    background-image: url('../img/auto-mobile.jpg');
+    height:650px;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    position: relative;
+}
+.form_tinhTien{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background-color: #000000;
+}
+.content__title{
+    background-color: #14213D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.content__body{
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.form-control{
+    width: 85%;
+}
